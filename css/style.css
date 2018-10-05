@@ -499,7 +499,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.05);
   -webkit-transition: 0.9s;
   -o-transition: 0.9s;
   transition: 0.9s;
