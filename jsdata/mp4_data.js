@@ -3,9 +3,9 @@ var MP4list =new Array;
 window.onload=function(){
     //数据初始化
     //》》》 JPG_DATA(1,2,3,4,5) 《《《    数据格式  图片地址 / 标题 / 标签（制作人） / 简介 / 跳转地址  》》 复制这段数据即可
-    MP4_DATA('//player.bilibili.com/player.html?aid=23920182&cid=40020512&page=1','谁的青春不迷茫','团队：小王 发布时间：2016-08-13','运用所学PR加AE制作','http://www.huimengya.com/p/406.html')
+    MP4_DATA('//player.bilibili.com/player.html?aid=23920182&cid=40020512&page=1','谁的青春不迷茫','团队：小王 发布时间：2016-08-13','运用所学PR加AE制作','https://www.bilibili.com/video/av23920182')
     index_Initialize()
-    // alert(2)
+    // alert(12)
 }
 function MP4_DATA(t1,t2,t3,t4,t5){
     var MP4_DATA = new Object;
@@ -29,7 +29,7 @@ for(i in MP4list){
     t6 =    '<div class="desc"><h3>'
     t7 =        '<a href="#">' +MP4list[i].title +'</a></h3> <span>' +MP4list[i].name + '</span>'
     t8 =        '<p>' +MP4list[i].describe + '</p>'
-    t9 =        '<a href="' +MP4list[i].jump_url +'" class="lead" target="_blank">Read More <i class="icon-arrow-right3"></i></a></div>'
+    t9 =        '<a href="' +MP4list[i].jump_url +'" class="lead" target="_blank">详细<i class="icon-arrow-right3"></i></a></div>'
     t10 = '</div>'
     t11 = '</div>'
     data = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11
